@@ -202,3 +202,86 @@
 // document.write('<p>', 'Amount of snack per day ' , snack ,'</p>')
 // var result = ((maxage-age)*365)*snackamount
 // document.write('<p>', 'You will need ' , result,' ', snack,' to last ypu until you rip of olf age of ', maxage  ,'</p>')
+
+
+
+
+// chapter 6-9
+
+// Q1
+// var a = 10
+// document.write('<p>', 'the vale of a is  ' , a ,'</p>')
+// document.write('<p>', '================' ,'</p>')
+// ++a
+// document.write('<p>', 'the vale of ++a is  ' , a ,'</p>')
+// document.write('<p>', 'now the vale of a is  ' , a ,'</p>')
+
+// document.write('<p>', 'the vale of a++ is  ' , a++ ,'</p>')
+// document.write('<p>', 'now the vale of a is  ' , a ,'</p>')
+
+// document.write('<p>', 'the vale of a++ is  ' , --a ,'</p>')
+// document.write('<p>', 'now the vale of a is  ' , a ,'</p>')
+
+// document.write('<p>', 'the vale of a++ is  ' , a-- , '</p>')
+// document.write('<p>', 'now the vale of a is  ' , a ,'</p>')
+
+
+
+
+// Q2
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+// document.write('<p>', '--a is pre decremented '  ,'</p>')
+// document.write('<p>', 'the value of --a is 1'  ,'</p>')
+// document.write('<p>', '            '  ,'</p>')
+// document.write('<p>', '--a and --b are pre decremented '  ,'</p>')
+// document.write('<p>', 'the value of --a is 1 and --b is 0 '  ,'</p>')
+// document.write('<p>', 'the answer of --a - --b is 1'  ,'</p>')
+
+// document.write('<p>', '--a and --b are pre decremented  and ++b is pre increment'  ,'</p>')
+// document.write('<p>', 'the value of --a is 1 , --b is 0  amd ++b is 1'  ,'</p>')
+// document.write('<p>', 'the answer of --a - --b + ++b is 2'  ,'</p>')
+
+// document.write('<p>', '--a and --b are pre decremented  , ++b is pre increment and b++ is post decrement'  ,'</p>')
+// document.write('<p>', 'the value of --a is 1 , --b is 0 , ++b is 1 and b-- is 1'   ,'</p>')
+// document.write('<p>', 'the answer of --a - --b + ++b + b++ is 3'  ,'</p>')
+
+
+
+// Q3
+// var userName = prompt("Enter YOur Name")
+// document.write('<p>', 'greetings ', userName  ,'</p>')
+
+
+// // Q6
+// var subjust1 = prompt('Enter subjust 1')
+// var subjustNumbers1 = +prompt('Enter subjust numbers')
+// var subjust2 = prompt('Enter subjust 2')
+// var subjustNumbers2 = +prompt('Enter subjust numbers')
+// var subjust3 = prompt('Enter subjust 3')
+// var subjustNumbers3 = +prompt('Enter subjust numbers')
+// var totalMarks = 100
+
+// var percentage = ((subjustNumbers1 + subjustNumbers2 + subjustNumbers3 )/300)*100 
+
+// document.getElementById("Subjust1").textContent = subjust1
+// document.getElementById("Subjust2").textContent = subjust2
+// document.getElementById("Subjust3").textContent = subjust3
+
+// document.getElementById("total-marks1").textContent = totalMarks 
+// document.getElementById("total-marks2").textContent = totalMarks                                                                        
+// document.getElementById("total-marks3").textContent = totalMarks
+// document.getElementById("totalNUmbers").textContent = totalMarks*3
+
+// document.getElementById("SubjustNumber1").textContent = subjustNumbers1
+// document.getElementById("SubjustNumber2").textContent = subjustNumbers2                                                               
+// document.getElementById("SubjustNumber3").textContent = subjustNumbers3
+// document.getElementById("sum").textContent = subjustNumbers1 + subjustNumbers2 + subjustNumbers3
+
+// document.getElementById("Percentage1").textContent = subjustNumbers1 + '%'
+// document.getElementById("Percentage2").textContent = subjustNumbers2  + '%'                                                              
+// document.getElementById("Percentage3").textContent = subjustNumbers3 + '%'
+// document.getElementById("total-percentage").textContent = percentage+'%'
+
+
